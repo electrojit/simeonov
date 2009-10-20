@@ -1,0 +1,63 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Intention of project}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goals and success criteria of project}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Definitions,acronyms and abbreviation}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Literature references}{4}{section.1.4}
+\contentsline {chapter}{\numberline {2}Requirements}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}NVRAM-Manager}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Acronyms and abbreviations}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Functional requirements}{6}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Configuration}{6}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Initialization}{7}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Normal Operation}{7}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Shutdown Operation}{8}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}Fault Operation}{9}{subsubsection.2.2.2.5}
+\contentsline {subsection}{\numberline {2.2.3}Non-Functional Requirements}{9}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Hardware independence}{9}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Usability}{9}{subsubsection.2.2.3.2}
+\contentsline {section}{\numberline {2.3}Internal Flash Driver}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Acronyms and abbreviations}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Functional requirements}{10}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Configuration}{10}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Normal Operation}{10}{subsubsection.2.3.2.2}
+\contentsline {subsection}{\numberline {2.3.3}Non-Functional Requirements}{12}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}External Flash Driver}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Acronyms and abbreviations}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Functional requirements}{13}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}General}{13}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Configuration}{13}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Fault Operation}{13}{subsubsection.2.4.2.3}
+\contentsline {subsection}{\numberline {2.4.3}Non-Functional Requirements}{13}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Internal EEPROM Driver}{14}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Acronyms and abbreviations}{14}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Functional requirements}{14}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}Configuration}{14}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}Normal Operation}{14}{subsubsection.2.5.2.2}
+\contentsline {subsection}{\numberline {2.5.3}Non-Functional Requirements}{15}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}External EEPROM Driver}{16}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Acronyms and abbreviations}{16}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Functional requirements}{16}{subsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.2.1}General}{16}{subsubsection.2.6.2.1}
+\contentsline {subsubsection}{\numberline {2.6.2.2}Configuration}{16}{subsubsection.2.6.2.2}
+\contentsline {subsubsection}{\numberline {2.6.2.3}Normal Operation}{16}{subsubsection.2.6.2.3}
+\contentsline {subsection}{\numberline {2.6.3}Non-Functional Requirements}{16}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Memory Abstraction Modules}{17}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Acronyms and abbreviations}{17}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Functional requirements}{17}{subsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.2.1}Configuration}{17}{subsubsection.2.7.2.1}
+\contentsline {subsubsection}{\numberline {2.7.2.2}Normal Operation}{18}{subsubsection.2.7.2.2}
+\contentsline {subsubsection}{\numberline {2.7.2.3}Fault Operation}{18}{subsubsection.2.7.2.3}
+\contentsline {subsection}{\numberline {2.7.3}Non-Functional Requirements}{19}{subsection.2.7.3}
+\contentsline {section}{\numberline {2.8}Memory Abstraction Interface}{20}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Acronyms and abbreviations}{20}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Functional requirements}{20}{subsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.2.1}General}{20}{subsubsection.2.8.2.1}
+\contentsline {subsubsection}{\numberline {2.8.2.2}Configuration}{20}{subsubsection.2.8.2.2}
+\contentsline {subsubsection}{\numberline {2.8.2.3}Normal Operation}{20}{subsubsection.2.8.2.3}
+\contentsline {subsubsection}{\numberline {2.8.2.4}Fault Operation}{20}{subsubsection.2.8.2.4}
+\contentsline {subsection}{\numberline {2.8.3}Non-Functional Requirements}{20}{subsection.2.8.3}
+\contentsline {subsubsection}{\numberline {2.8.3.1}Timing Requirements}{20}{subsubsection.2.8.3.1}
+\contentsline {subsubsection}{\numberline {2.8.3.2}Resource Usage}{20}{subsubsection.2.8.3.2}
+\contentsline {chapter}{\numberline {3}Software architecture}{21}{chapter.3}
+\contentsline {chapter}{\numberline {4}Glossary}{22}{chapter.4}
