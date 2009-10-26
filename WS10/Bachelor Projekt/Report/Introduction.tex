@@ -1,7 +1,13 @@
 \chapter[Introduction]{\thechapter. Introduction}
 \section{Intention of project}
-The scope of this project is aimed to help understand and identify the advantages and disadvantages of the diverse modeling languages such as UML 2.0, SysML and UML-RT. In order to achieve this goal, we need a standardized software architecture like the one offered by Automotive Open System Architecture (AUTOSAR).\newline
-To achieve this case study we need to model a given part from the AUTOSAR architecture, that is to be found in every automotive unit. This is the reason why we have chosen the memory stack.
+The scope of this project is aimed to help understand and identify the advantages and/or disadvantages of the diverse modeling languages. \newline
+Using different graphical models provided by a certain modeling language, one is able to make a precise specification of a complex system. Based on this specification and the fact that the process of modeling is abstract from the process of implementing, is the probability for misunderstandings, due to insufficient communication, very low.\newline
+In order to ensure meaningful assessment of the diverse modeling languages, a standardized software architecture need to be modeled, like the one offered by Automotive Open System Architecture (AUTOSAR). Because of the broad scope and variety of software layers presented in AUTOSAR architecture as show in Figure 1.1, only the memory stack is going to be modeled.  The main reason for this decision is that the memory stack is to be found in every automotive unit\footnote{Leitner Fl. $\-$ Evaluation of the Matlab Simulink Design Veriﬁer versus the model checker, S. 24}.
+\begin{figure}[Layered Software Architecture]
+\centering
+\includegraphics[width=9cm]{Images/Figure1_1.png}
+\caption{Layered Software Architecture - AUTOSAR}
+\end{figure}
 \section{Goals and success criteria of project}
 The project activities are going to be comparable to the base practices(BP) defined by the Software Process Improvement and Capability Determination(SPICE) model.
 \begin{itemize}

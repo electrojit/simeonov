@@ -1,88 +1,89 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
 \contentsline {section}{\numberline {1.1}Intention of project}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Goals and success criteria of project}{4}{section.1.2}
-\contentsline {chapter}{\numberline {2}Case study}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Requirements}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Overview}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}NVRAM-Manager}{5}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.2.1}Acronyms and abbreviations}{5}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {2.1.2.2}Functional requirements}{6}{subsubsection.2.1.2.2}
-\contentsline {subsubsection}{\numberline {2.1.2.3}Configuration}{6}{subsubsection.2.1.2.3}
-\contentsline {subsubsection}{\numberline {2.1.2.4}Initialization}{7}{subsubsection.2.1.2.4}
-\contentsline {subsubsection}{\numberline {2.1.2.5}Normal Operation}{7}{subsubsection.2.1.2.5}
-\contentsline {subsubsection}{\numberline {2.1.2.6}Shutdown Operation}{8}{subsubsection.2.1.2.6}
-\contentsline {subsubsection}{\numberline {2.1.2.7}Fault Operation}{9}{subsubsection.2.1.2.7}
-\contentsline {subsubsection}{\numberline {2.1.2.8}Non-Functional Requirements}{9}{subsubsection.2.1.2.8}
-\contentsline {subsubsection}{\numberline {2.1.2.9}Hardware independence}{9}{subsubsection.2.1.2.9}
-\contentsline {subsubsection}{\numberline {2.1.2.10}Usability}{9}{subsubsection.2.1.2.10}
-\contentsline {subsection}{\numberline {2.1.3}Internal Flash Driver}{10}{subsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.3.1}Acronyms and abbreviations}{10}{subsubsection.2.1.3.1}
-\contentsline {subsubsection}{\numberline {2.1.3.2}Functional requirements}{10}{subsubsection.2.1.3.2}
-\contentsline {subsubsection}{\numberline {2.1.3.3}Configuration}{10}{subsubsection.2.1.3.3}
-\contentsline {subsubsection}{\numberline {2.1.3.4}Normal Operation}{10}{subsubsection.2.1.3.4}
-\contentsline {subsubsection}{\numberline {2.1.3.5}Non-Functional Requirements}{12}{subsubsection.2.1.3.5}
-\contentsline {subsection}{\numberline {2.1.4}External Flash Driver}{13}{subsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.4.1}Acronyms and abbreviations}{13}{subsubsection.2.1.4.1}
-\contentsline {subsubsection}{\numberline {2.1.4.2}Functional requirements}{13}{subsubsection.2.1.4.2}
-\contentsline {subsubsection}{\numberline {2.1.4.3}General}{13}{subsubsection.2.1.4.3}
-\contentsline {subsubsection}{\numberline {2.1.4.4}Configuration}{13}{subsubsection.2.1.4.4}
-\contentsline {subsubsection}{\numberline {2.1.4.5}Fault Operation}{13}{subsubsection.2.1.4.5}
-\contentsline {subsubsection}{\numberline {2.1.4.6}Non-Functional Requirements}{13}{subsubsection.2.1.4.6}
-\contentsline {subsection}{\numberline {2.1.5}Internal EEPROM Driver}{14}{subsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.5.1}Acronyms and abbreviations}{14}{subsubsection.2.1.5.1}
-\contentsline {subsubsection}{\numberline {2.1.5.2}Functional requirements}{14}{subsubsection.2.1.5.2}
-\contentsline {subsubsection}{\numberline {2.1.5.3}Configuration}{14}{subsubsection.2.1.5.3}
-\contentsline {subsubsection}{\numberline {2.1.5.4}Normal Operation}{14}{subsubsection.2.1.5.4}
-\contentsline {subsubsection}{\numberline {2.1.5.5}Non-Functional Requirements}{15}{subsubsection.2.1.5.5}
-\contentsline {subsection}{\numberline {2.1.6}External EEPROM Driver}{16}{subsection.2.1.6}
-\contentsline {subsubsection}{\numberline {2.1.6.1}Acronyms and abbreviations}{16}{subsubsection.2.1.6.1}
-\contentsline {subsubsection}{\numberline {2.1.6.2}Functional requirements}{16}{subsubsection.2.1.6.2}
-\contentsline {subsubsection}{\numberline {2.1.6.3}General}{16}{subsubsection.2.1.6.3}
-\contentsline {subsubsection}{\numberline {2.1.6.4}Configuration}{16}{subsubsection.2.1.6.4}
-\contentsline {subsubsection}{\numberline {2.1.6.5}Normal Operation}{16}{subsubsection.2.1.6.5}
-\contentsline {subsubsection}{\numberline {2.1.6.6}Non-Functional Requirements}{16}{subsubsection.2.1.6.6}
-\contentsline {subsection}{\numberline {2.1.7}Memory Abstraction Modules}{17}{subsection.2.1.7}
-\contentsline {subsubsection}{\numberline {2.1.7.1}Acronyms and abbreviations}{17}{subsubsection.2.1.7.1}
-\contentsline {subsubsection}{\numberline {2.1.7.2}Functional requirements}{17}{subsubsection.2.1.7.2}
-\contentsline {subsubsection}{\numberline {2.1.7.3}Configuration}{17}{subsubsection.2.1.7.3}
-\contentsline {subsubsection}{\numberline {2.1.7.4}Normal Operation}{18}{subsubsection.2.1.7.4}
-\contentsline {subsubsection}{\numberline {2.1.7.5}Fault Operation}{18}{subsubsection.2.1.7.5}
-\contentsline {subsubsection}{\numberline {2.1.7.6}Non-Functional Requirements}{19}{subsubsection.2.1.7.6}
-\contentsline {subsection}{\numberline {2.1.8}Memory Abstraction Interface}{20}{subsection.2.1.8}
-\contentsline {subsubsection}{\numberline {2.1.8.1}Acronyms and abbreviations}{20}{subsubsection.2.1.8.1}
-\contentsline {subsubsection}{\numberline {2.1.8.2}Functional requirements}{20}{subsubsection.2.1.8.2}
-\contentsline {subsubsection}{\numberline {2.1.8.3}General}{20}{subsubsection.2.1.8.3}
-\contentsline {subsubsection}{\numberline {2.1.8.4}Configuration}{20}{subsubsection.2.1.8.4}
-\contentsline {subsubsection}{\numberline {2.1.8.5}Normal Operation}{20}{subsubsection.2.1.8.5}
-\contentsline {subsubsection}{\numberline {2.1.8.6}Fault Operation}{20}{subsubsection.2.1.8.6}
-\contentsline {subsubsection}{\numberline {2.1.8.7}Non-Functional Requirements}{20}{subsubsection.2.1.8.7}
-\contentsline {subsubsection}{\numberline {2.1.8.8}Timing Requirements}{20}{subsubsection.2.1.8.8}
-\contentsline {subsubsection}{\numberline {2.1.8.9}Resource Usage}{20}{subsubsection.2.1.8.9}
-\contentsline {section}{\numberline {2.2}Modelling with UML}{21}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Software architecture}{21}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}Component segmentation and description of interfaces}{21}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Hardware/Software mapping}{21}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {2.2.1.3}Management of persistent data}{21}{subsubsection.2.2.1.3}
-\contentsline {subsubsection}{\numberline {2.2.1.4}Access rights and access control}{21}{subsubsection.2.2.1.4}
-\contentsline {subsubsection}{\numberline {2.2.1.5}Global control flow}{21}{subsubsection.2.2.1.5}
-\contentsline {subsubsection}{\numberline {2.2.1.6}Tools}{21}{subsubsection.2.2.1.6}
-\contentsline {subsubsection}{\numberline {2.2.1.7}Reference}{21}{subsubsection.2.2.1.7}
-\contentsline {section}{\numberline {2.3}Modelling with SysML}{22}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Software architecture}{22}{subsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.1.1}Component segmentation and description of interfaces}{22}{subsubsection.2.3.1.1}
-\contentsline {subsubsection}{\numberline {2.3.1.2}Hardware/Software mapping}{22}{subsubsection.2.3.1.2}
-\contentsline {subsubsection}{\numberline {2.3.1.3}Management of persistent data}{22}{subsubsection.2.3.1.3}
-\contentsline {subsubsection}{\numberline {2.3.1.4}Access rights and access control}{22}{subsubsection.2.3.1.4}
-\contentsline {subsubsection}{\numberline {2.3.1.5}Global control flow}{22}{subsubsection.2.3.1.5}
-\contentsline {subsubsection}{\numberline {2.3.1.6}Tools}{22}{subsubsection.2.3.1.6}
-\contentsline {subsubsection}{\numberline {2.3.1.7}Reference}{22}{subsubsection.2.3.1.7}
-\contentsline {section}{\numberline {2.4}Modelling with UML$\discretionary {-}{}{}$RT}{23}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Software architecture}{23}{subsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}Component segmentation and description of interfaces}{23}{subsubsection.2.4.1.1}
-\contentsline {subsubsection}{\numberline {2.4.1.2}Hardware/Software mapping}{23}{subsubsection.2.4.1.2}
-\contentsline {subsubsection}{\numberline {2.4.1.3}Management of persistent data}{23}{subsubsection.2.4.1.3}
-\contentsline {subsubsection}{\numberline {2.4.1.4}Access rights and access control}{23}{subsubsection.2.4.1.4}
-\contentsline {subsubsection}{\numberline {2.4.1.5}Global control flow}{23}{subsubsection.2.4.1.5}
-\contentsline {subsubsection}{\numberline {2.4.1.6}Tools}{23}{subsubsection.2.4.1.6}
-\contentsline {subsubsection}{\numberline {2.4.1.7}Reference}{23}{subsubsection.2.4.1.7}
-\contentsline {chapter}{\numberline {3}Glossary}{24}{chapter.3}
+\contentsline {section}{\numberline {1.2}Goals and success criteria of project}{5}{section.1.2}
+\contentsline {chapter}{\numberline {2}Case study}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Requirements}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Overview}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}NVRAM-Manager}{7}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Acronyms and abbreviations}{7}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Functional requirements}{8}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Configuration}{8}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Initialization}{9}{subsubsection.2.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.2.5}Normal Operation}{9}{subsubsection.2.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.2.6}Shutdown Operation}{11}{subsubsection.2.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.2.7}Fault Operation}{11}{subsubsection.2.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.2.8}Non-Functional Requirements}{11}{subsubsection.2.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.2.9}Hardware independence}{11}{subsubsection.2.2.2.9}
+\contentsline {subsubsection}{\numberline {2.2.2.10}Usability}{11}{subsubsection.2.2.2.10}
+\contentsline {subsection}{\numberline {2.2.3}Internal Flash Driver}{12}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Acronyms and abbreviations}{12}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Functional requirements}{12}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Configuration}{12}{subsubsection.2.2.3.3}
+\contentsline {subsubsection}{\numberline {2.2.3.4}Normal Operation}{12}{subsubsection.2.2.3.4}
+\contentsline {subsubsection}{\numberline {2.2.3.5}Non-Functional Requirements}{14}{subsubsection.2.2.3.5}
+\contentsline {subsection}{\numberline {2.2.4}External Flash Driver}{15}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Acronyms and abbreviations}{15}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Functional requirements}{15}{subsubsection.2.2.4.2}
+\contentsline {subsubsection}{\numberline {2.2.4.3}General}{15}{subsubsection.2.2.4.3}
+\contentsline {subsubsection}{\numberline {2.2.4.4}Configuration}{15}{subsubsection.2.2.4.4}
+\contentsline {subsubsection}{\numberline {2.2.4.5}Fault Operation}{15}{subsubsection.2.2.4.5}
+\contentsline {subsubsection}{\numberline {2.2.4.6}Non-Functional Requirements}{15}{subsubsection.2.2.4.6}
+\contentsline {subsection}{\numberline {2.2.5}Internal EEPROM Driver}{16}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Acronyms and abbreviations}{16}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Functional requirements}{16}{subsubsection.2.2.5.2}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Configuration}{16}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}Normal Operation}{16}{subsubsection.2.2.5.4}
+\contentsline {subsubsection}{\numberline {2.2.5.5}Non-Functional Requirements}{17}{subsubsection.2.2.5.5}
+\contentsline {subsection}{\numberline {2.2.6}External EEPROM Driver}{18}{subsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.6.1}Acronyms and abbreviations}{18}{subsubsection.2.2.6.1}
+\contentsline {subsubsection}{\numberline {2.2.6.2}Functional requirements}{18}{subsubsection.2.2.6.2}
+\contentsline {subsubsection}{\numberline {2.2.6.3}General}{18}{subsubsection.2.2.6.3}
+\contentsline {subsubsection}{\numberline {2.2.6.4}Configuration}{18}{subsubsection.2.2.6.4}
+\contentsline {subsubsection}{\numberline {2.2.6.5}Normal Operation}{18}{subsubsection.2.2.6.5}
+\contentsline {subsubsection}{\numberline {2.2.6.6}Non-Functional Requirements}{18}{subsubsection.2.2.6.6}
+\contentsline {subsection}{\numberline {2.2.7}Memory Abstraction Modules}{19}{subsection.2.2.7}
+\contentsline {subsubsection}{\numberline {2.2.7.1}Acronyms and abbreviations}{19}{subsubsection.2.2.7.1}
+\contentsline {subsubsection}{\numberline {2.2.7.2}Functional requirements}{19}{subsubsection.2.2.7.2}
+\contentsline {subsubsection}{\numberline {2.2.7.3}Configuration}{19}{subsubsection.2.2.7.3}
+\contentsline {subsubsection}{\numberline {2.2.7.4}Normal Operation}{20}{subsubsection.2.2.7.4}
+\contentsline {subsubsection}{\numberline {2.2.7.5}Fault Operation}{20}{subsubsection.2.2.7.5}
+\contentsline {subsubsection}{\numberline {2.2.7.6}Non-Functional Requirements}{21}{subsubsection.2.2.7.6}
+\contentsline {subsection}{\numberline {2.2.8}Memory Abstraction Interface}{22}{subsection.2.2.8}
+\contentsline {subsubsection}{\numberline {2.2.8.1}Acronyms and abbreviations}{22}{subsubsection.2.2.8.1}
+\contentsline {subsubsection}{\numberline {2.2.8.2}Functional requirements}{22}{subsubsection.2.2.8.2}
+\contentsline {subsubsection}{\numberline {2.2.8.3}General}{22}{subsubsection.2.2.8.3}
+\contentsline {subsubsection}{\numberline {2.2.8.4}Configuration}{22}{subsubsection.2.2.8.4}
+\contentsline {subsubsection}{\numberline {2.2.8.5}Normal Operation}{22}{subsubsection.2.2.8.5}
+\contentsline {subsubsection}{\numberline {2.2.8.6}Fault Operation}{22}{subsubsection.2.2.8.6}
+\contentsline {subsubsection}{\numberline {2.2.8.7}Non-Functional Requirements}{22}{subsubsection.2.2.8.7}
+\contentsline {subsubsection}{\numberline {2.2.8.8}Timing Requirements}{22}{subsubsection.2.2.8.8}
+\contentsline {subsubsection}{\numberline {2.2.8.9}Resource Usage}{22}{subsubsection.2.2.8.9}
+\contentsline {section}{\numberline {2.3}Modelling with UML}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Software architecture}{23}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Component segmentation and description of interfaces}{23}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Hardware/Software mapping}{24}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Management of persistent data}{24}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}Access rights and access control}{24}{subsubsection.2.3.1.4}
+\contentsline {subsubsection}{\numberline {2.3.1.5}Global control flow}{24}{subsubsection.2.3.1.5}
+\contentsline {subsubsection}{\numberline {2.3.1.6}Tools}{24}{subsubsection.2.3.1.6}
+\contentsline {subsubsection}{\numberline {2.3.1.7}Reference}{24}{subsubsection.2.3.1.7}
+\contentsline {section}{\numberline {2.4}Modelling with SysML}{25}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Software architecture}{25}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Component segmentation and description of interfaces}{25}{subsubsection.2.4.1.1}
+\contentsline {subsubsection}{\numberline {2.4.1.2}Hardware/Software mapping}{25}{subsubsection.2.4.1.2}
+\contentsline {subsubsection}{\numberline {2.4.1.3}Management of persistent data}{25}{subsubsection.2.4.1.3}
+\contentsline {subsubsection}{\numberline {2.4.1.4}Access rights and access control}{25}{subsubsection.2.4.1.4}
+\contentsline {subsubsection}{\numberline {2.4.1.5}Global control flow}{25}{subsubsection.2.4.1.5}
+\contentsline {subsubsection}{\numberline {2.4.1.6}Tools}{25}{subsubsection.2.4.1.6}
+\contentsline {subsubsection}{\numberline {2.4.1.7}Reference}{25}{subsubsection.2.4.1.7}
+\contentsline {section}{\numberline {2.5}Modelling with UML$\discretionary {-}{}{}$RT}{26}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Software architecture}{26}{subsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}Component segmentation and description of interfaces}{26}{subsubsection.2.5.1.1}
+\contentsline {subsubsection}{\numberline {2.5.1.2}Hardware/Software mapping}{26}{subsubsection.2.5.1.2}
+\contentsline {subsubsection}{\numberline {2.5.1.3}Management of persistent data}{26}{subsubsection.2.5.1.3}
+\contentsline {subsubsection}{\numberline {2.5.1.4}Access rights and access control}{26}{subsubsection.2.5.1.4}
+\contentsline {subsubsection}{\numberline {2.5.1.5}Global control flow}{26}{subsubsection.2.5.1.5}
+\contentsline {subsubsection}{\numberline {2.5.1.6}Tools}{26}{subsubsection.2.5.1.6}
+\contentsline {subsubsection}{\numberline {2.5.1.7}Reference}{26}{subsubsection.2.5.1.7}
+\contentsline {chapter}{\numberline {3}Glossary}{27}{chapter.3}
