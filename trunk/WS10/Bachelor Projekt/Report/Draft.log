@@ -1,9 +1,9 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.24)  26 OCT 2009 13:13
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.24)  1 NOV 2009 15:26
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
-**Main.tex
-(./Main.tex
+**Draft.tex
+(./Draft.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, german-x-2008-06-18, ngerman-x-2008-06-18, ancientgreek, ibycus, ar
@@ -176,9 +176,10 @@ File: hpdftex.def 2009/02/22 v6.78p Hyperref driver for pdfTeX
 \Fld@listcount=\count95
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 22.
- (./Main.aux (./Introduction.aux) (./Case_study.aux) (./Glossary.aux) (./Refere
-nces.aux))
-\openout1 = `Main.aux'.
+
+(./Draft.aux (./Introduction.aux) (./Case_study.aux) (./Glossary.aux)
+(./References.aux))
+\openout1 = `Draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -220,12 +221,12 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 
-(./Main.out) (./Main.out)
+(./Draft.out) (./Draft.out)
 \@outlinefile=\write3
-\openout3 = `Main.out'.
+\openout3 = `Draft.out'.
 
 \AtBeginShipoutBox=\box27
- (./Main.toc
+ (./Draft.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -237,7 +238,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2008/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
 \tf@toc=\write4
-\openout4 = `Main.toc'.
+\openout4 = `Draft.toc'.
 
  [3]
 \openout2 = `Introduction.aux'.
@@ -847,11 +848,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Images/Memory_Stack_Overview_UML.png, id=555, 548.0475pt x 620.3175pt>
+<Images/Memory_Stack_Overview_UML.png, id=555, 945.5325pt x 1017.8025pt>
 File: Images/Memory_Stack_Overview_UML.png Graphic file (type png)
 
-<use Images/Memory_Stack_Overview_UML.png>) [23 <./Images/Memory_Stack_Overview
-_UML.png (PNG copy)>] [24] (./Case_Study/SysML/SoftwareArchitecture.tex)
+<use Images/Memory_Stack_Overview_UML.png> [23 <./Images/Memory_Stack_Overview_
+UML.png (PNG copy)>]) [24] (./Case_Study/SysML/SoftwareArchitecture.tex)
 [25] (./Case_Study/UML_RT/SoftwareArchitecture.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 1.
@@ -1024,26 +1025,26 @@ Underfull \vbox (badness 1558) has occurred while \output is active []
 
 
 
-] (./Main.aux (./Introduction.aux) (./Case_study.aux) (./Glossary.aux) (./Refer
-ences.aux))
+] (./Draft.aux (./Introduction.aux)
+(./Case_study.aux) (./Glossary.aux) (./References.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
  4527 strings out of 493876
- 67080 string characters out of 1150567
+ 67095 string characters out of 1150567
  139576 words of memory out of 3000000
  7590 multiletter control sequences out of 10000+50000
  10597 words of font info for 37 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 36i,12n,43p,624b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,43p,625b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss10.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss12.pfb></usr/local/texl
 ive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss8.pfb></usr/local/texlive/2008/t
 exmf-dist/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/local/texlive/2008/texmf-di
 st/fonts/type1/bluesky/cm/cmsy10.pfb>
-Output written on Main.pdf (29 pages, 223260 bytes).
+Output written on Draft.pdf (29 pages, 251357 bytes).
 PDF statistics:
  632 PDF objects out of 1000 (max. 8388607)
  124 named destinations out of 1000 (max. 131072)
