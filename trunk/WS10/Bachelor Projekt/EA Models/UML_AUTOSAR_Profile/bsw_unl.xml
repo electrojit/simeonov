@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="5C17EADE-3" name="Profile" version="1.0" notes="Profile"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="callback" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Operation">
+						<Property name="isOrdered" value=""/>
+						<Property name="isQuery" value="false"/>
+						<Property name="isUnique" value=""/>
+						<Property name="lower" value=""/>
+						<Property name="upper" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aName" type="char" description="Used for HTML generation as &lt;a name&gt; for this function table. If not set, the name of the function will be used." unit="" values="" default=""/>
+					<Tag name="Reentrant" type="char" description="" unit="" values="" default="Non Reentrant"/>
+					<Tag name="ServiceID" type="int" description="" unit="" values="" default="0"/>
+					<Tag name="Synchronous" type="char" description="" unit="" values="" default="Synchronous"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="configurable" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="function" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="callback">
+				<TaggedValues>
+					<Tag name="aName" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Reentrant" type="char" description="" unit="" values="" default="Non Reentrant"/>
+					<Tag name="ServiceID" type="int" description="" unit="" values="" default="0"/>
+					<Tag name="Synchronous" type="char" description="" unit="" values="" default="Synchronous"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="mandatory" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="module" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Component">
+						<Property name="isIndirectlyInstantiated" value="true"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="optional" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Dependency">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="range" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="scheduled_function" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0" generalizes="function">
+				<TaggedValues>
+					<Tag name="aName" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Reentrant" type="char" description="" unit="" values="" default="Non Reentrant"/>
+					<Tag name="schedule" type="enumeration" description="" unit="" values="FIXED_CYCLIC,FIXED_CYCLIC_WITH_PRECONDITION,ON_PRE_CONDITION,VARIABLE_CYCLIC_OR_ON_PRECONDITION,VARIABLE_CYCLIC" default="FIXED_CYCLIC"/>
+					<Tag name="ServiceID" type="int" description="" unit="" values="" default="0"/>
+					<Tag name="Synchronous" type="char" description="" unit="" values="" default="Synchronous"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="structure" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aName" type="char" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="type" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aName" type="char" description="" unit="" values="" default=""/>
+					<Tag name="Range" type="char" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="typedef" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="aName" type="char" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
