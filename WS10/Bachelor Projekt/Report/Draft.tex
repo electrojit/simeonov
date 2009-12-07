@@ -2,7 +2,7 @@
 
 \renewcommand{\chaptername}[2]{}
 \renewcommand{\rmdefault}{cmss}
-
+\usepackage{longtable}
 \usepackage{graphicx}
 \usepackage{a4wide}
 \usepackage{fancyhdr}
@@ -23,15 +23,17 @@
 \begin{document}
 %\maketitle
 
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{5} 
 \setcounter{tocdepth}{3}
 
 \tableofcontents
 
 \include{Introduction}
-
+\include{Autosar}
+\include{Spice}
+\include{ModelingLanguages}
 \include{Case_study}
-
+\include{Conclusion}
 \include{Glossary}
 
 \include{References}

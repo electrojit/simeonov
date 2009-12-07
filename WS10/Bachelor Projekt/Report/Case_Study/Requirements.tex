@@ -24,9 +24,60 @@ The \mbox{NVRAM} manager, as specified in [AUTOSAR$\_$SRS$\_$MemoryServeices.pdf
 \newline
 {\bf Administrative Block} - A Basic Storage Object that resides in RAM. It contains any RAM data, that are necessary to manage the NVRAM block.
 
-\subsubsection{Functional requirements}
+\subsubsection{Requirements traceability}
 
-\subsubsection{Configuration}
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+[BSW041] &Declaration and allocation of & application memory NVM030 & yes/no\\  \hline 
+[BSW08534]& Classes of RAM data blocks & NVM370, NVM371, NVM372, NVM373 &yes/no\\  \hline 
+[BSW08528]& NVRAM block management type & native NVM000 &  yes/no\\  \hline 
+[BSW08529] &NVRAM block management type &redundant NVM001, NVM047 & yes/no\\  \hline 
+[BSW08531] &NVRAM block management type & dataset NVM006 & yes/no\\  \hline 
+[BSW08543] &Static configuration of block priority & NVM032 &  yes/no\\  \hline  
+[BSW08009] &Default write protection of blocks & NVM033, NVM054 & yes/no\\  \hline 
+[BSW135]& NVRAM configuration ID & NVM034, NVM073 & yes/no\\  \hline 
+[BSW08549]& Automatic initialization of RAM data after Software update &   NVM116 & yes/no\\  \hline 
+[BSW125] &Job notification & NVM383, NVM384 &  yes/no\\  \hline  
+[BSW08000]& Configurable access to multiple(different) devices & NVM035 & yes/no\\  \hline 
+[BSW08001]& Configuration of consistency check of data &NVM036,  NVM040 & yes/no\\  \hline 
+[BSW08538]& Static configuration of NVRAM blocks being loaded during start-up& NVM117, NVM245, NVM118 &  yes/no\\  \hline 
+[BSW08546]& Protection of RAM data blocks against data loss & NVM119 &  yes/no\\  \hline  
+[BSW08533]& Load data blocks from NVRAM to RAM & NVM008 &  yes/no\\  \hline  
+[BSW176] &Only access non-volatile memory via NVRAM manager & NVM037  & yes/no\\  \hline 
+[BSW027] &Accessing of non volatile data & NVM038 & yes/no\\  \hline 
+[BSW08014]& RAM block allocation & NVM088 &  yes/no\\  \hline 
+[BSW013] &Handling of concurrent accesses to NVRAM & NVM378, NVM379 & yes/no\\  \hline 
+[BSW016] &Block-wise reading of data & NVM010 NVM029 &  yes/no\\  \hline 
+[BSW017] &Block-wise writing of data & NVM410, NVM411 &  yes/no\\  \hline 
+[BSW08541] &Guaranteed processing of accepted write requests & NVM380, NVM381, NVM152 &  yes/no\\  \hline 
+[BSW018] &Block-wise restoring of default data & NVM012  &  yes/no\\  \hline 
+[BSW08548] &Automatic initialization without ROM Block & NVM116 &  yes/no\\  \hline  
+[BSW08547] &Distinction between invalidated and inconsistent data & NVM405, NVM406, NVM294, NVM203 &  yes/no\\  \hline 
+[BSW08550] &Marking blocks modified/unmodified & NVM405, NVM406, NVM432, NVM433, NVM434, NVM344, NVM345 &  yes/no\\  \hline  
+[BSW08545] &Validation of permanent RAM data blocks &NVM405, NVM406, NVM121, NVM344, NVM345 &  yes/no\\  \hline 
+[BSW08011] &Invalidation of NVRAM data blocks& NVM421, NVM422, NVM423, NVM424 &  yes/no\\  \hline 
+[BSW08544]& Block-wise erasing of NVRAM data & NVM415, NVM416, NVM417, NVM418 &  yes/no\\  \hline 
+[BSW08007]& Selection of datasets & NVM014, NVM021 &  yes/no\\  \hline 
+[BSW08542] &Job order prioritization & NVM032 & yes/no\\  \hline 
+[BSW020] & Readout of current status of NVRAM manager operations & NVM015 & yes/no\\  \hline 
+[BSW127] &Write protect/unprotect function & NVM016, NVM054 & yes/no\\  \hline 
+[BSW030] &Consistency/integrity check of data & NVM040, NVM036, NVM165 &  yes/no\\  \hline 
+[BSW034] &Quasi-parallel write access & NVM378, NVM379 &  yes/no\\  \hline 
+[BSW08535]& Save data blocks from RAM to NV memory & NVM018 &  yes/no\\  \hline  
+[BSW08540] &Aborting the shut down process & NVM019 &  yes/no\\  \hline 
+[BSW038] &Treatable errors shall not affect other software components & NVM047, NVM001 &  yes/no\\  \hline 
+[BSW129] &Automatic data repair & NVM047, NVM001 &  yes/no\\  \hline 
+[BSW08010] &Loading of ROM default data & NVM012, NVM020, NVM387, NVM388 &  yes/no\\  \hline 
+[BSW011] &(Memory) hardware independence & NVM051 &  yes/no\\  \hline 
+[BSW130] &Provide information about used memory resources & NVM052 &  yes/no\\  \hline 
+[BSW08015] &NV Block security of ECU & NVM072, NVM276  & yes/no\\  \hline			
+\end{longtable}
+
+
+
+\subsubsection{Functional requirements}
+\paragraph{Configuration}$\;$\\
+\\
 {\bf [\FR041]} - Each application shall be enabled to declare and allocate the memory requirements at configuration time.\newline
 \newline
 {\bf [\FR08534]} - Two classes of RAM data blocks shall provide the service for data exchange between the NVRAM-Manager and SW-Components.\newline
@@ -54,10 +105,12 @@ The \mbox{NVRAM} manager, as specified in [AUTOSAR$\_$SRS$\_$MemoryServeices.pdf
 \newline
 {\bf [\FR08546]} - For each NVRAM block there shall be a configurable option to enforce meachnisms increasing integrity of \mbox{RAM} data.\newline
 \newline
-\subsubsection{Initialization}
+\paragraph{Initialization}$\;$\\
+\\
 {\bf [\FR08533]} - The \mbox{NVRAM} manager provides a service to check and load those \mbox{NVRAM blocks}, that are configured to have a permanent \mbox{RAM} data block.\newline
 \newline
-\subsubsection{Normal Operation}
+\paragraph{Normal Operation}$\;$\\
+\\
 {\bf [\FR176]} - The \mbox{NVRAM} manager could only access the non-volatile memory.\newline
 \newline
 {\bf [\FR027]} - The \mbox{NVRAM} manager provides an implicit way of accessing blocks in the \mbox{NVRAM} and in the \mbox{RAM}.\newline
@@ -98,11 +151,13 @@ The \mbox{NVRAM} manager, as specified in [AUTOSAR$\_$SRS$\_$MemoryServeices.pdf
 \newline
 {\bf [\FR034]} - The \mbox{NVRAM} manager write accesses is concurrently executed to normal operation of the \mbox{ECU}.\newline
 
-\subsubsection{Shutdown Operation}
+\paragraph{Shutdown Operation}$\;$\\
+\\
 {\bf [\FR08535]} - The \mbox{NVRAM} manager triggers update of integrity information and saving of permanent \mbox{RAM} data blocks to \mbox{NV} memory.\newline
 \newline
 {\bf [\FR08540]} - The \mbox{NVRAM} manager is to abort a \mbox{ECU} shutdown if a an \mbox{ECU} condition is detected.\newline
-\subsubsection{Fault Operation}
+\paragraph{Fault Operation}$\;$\\
+\\
 {\bf [\FR038]} - The \mbox{NVRAM} manager is not going to report healable or recoverable errors to other software components.\newline
 \newline
 {\bf [\FR0129]} - If data corruption is detected and valid data can be derived, this is going to be done by the \mbox{NVRAM} manager.\newline
@@ -111,26 +166,202 @@ The \mbox{NVRAM} manager, as specified in [AUTOSAR$\_$SRS$\_$MemoryServeices.pdf
 \newline
 {\bf [\FR08015]} - After \mbox{ECU} reprogramming some of the \mbox{NV} blocks in the \mbox{NVRAM} are not going to be erased nor be replaced with the default \mbox{ROM} data after the first initialization.\newline
 \subsubsection{Non-Functional Requirements}
-\subsubsection{Hardware independence}
+\paragraph{Hardware independence}$\;$\\
+\\
 {\bf [\FR011]} - The \mbox{NVRAM} manager is going to access the underlying memory hardware via interfaces. Thus abstracting the memory hardware.
-
-\subsubsection{Usability}
+\paragraph{Usability}$\;$\\
+\\
 {\bf [\FR0130]} - The \mbox{NVRAM} manager is providing information in \mbox{MAP} file format how many resources of \mbox{RAM},\mbox{ROM} and \mbox{NVRAM} are being used.
 \newpage
+\subsection{Memory Abstraction Interface}
+Provides upper layers with a virtual segmentation on a uniform linear address space.
+\subsubsection{Acronyms and abbreviations}
 
+\subsubsection{Requirements traceability}
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+BSW14019 &Provide uniform access to underlying memory abstraction modules & MemIf001, MemIf017 &  yes/no\\  \hline
+BSW14020& Selection of underlying memory abstraction modules & MemIf018 &  yes/no\\  \hline
+BSW14021& Number of underlying memory abstraction modules & MemIf018, MemIf019, MemIf020, MemIf022, MemIf025 &  yes/no\\  \hline
+BSW14022& Preserving of functionality & MemIf017 &  yes/no\\  \hline
+BSW14023 &Parameter checking & MemIf005, MemIf022 &  yes/no\\  \hline
+BSW14025 &Efficient implementation & MemIf019, MemIf020 &  yes/no\\  \hline
+\end{longtable}
+
+
+\subsubsection{Functional requirements}
+\paragraph{General}$\;$\\
+\\
+{\bf [\FR14019]} - Provides those services that using uniform access to those APIs that are required for usage within the \mbox{NVRAM} manager.\newline
+\newline
+{\bf [\FR14020]} - Using device index can the memory abstraction interface select the FEE or EA modules.
+\paragraph{Configuration}$\;$\\
+\\
+{\bf [\FR14021]} - The configuration of the number of underlying memory abstraction modules is allow in the pre-comple time.
+\paragraph{Normal Operation}$\;$\\
+\\
+{\bf [\FR14022]} - The memory abstraction interface preserves only the functionality of the underlying memory abstraction module.
+\paragraph{Fault Operation}$\;$\\
+\\
+{\bf [\FR14023]} - The parameters that are going to be check by the memory abstraction interface are those that are used within the interface itself.
+\subsubsection{Non-Functional Requirements}
+\paragraph{Timing Requirements}$\;$\\
+\\
+{\bf [\FR14024]} - By mapping of the memory abstraction interface API to the memory abstraction modules API can the timing behavior be preserved.
+\paragraph{Resource Usage}$\;$\\
+\\
+{\bf [\FR14025]} - The memory abstraction interface is in such a way implemented that almost no memory and runtime overhead is caused by the implementation of this layer.
+\newpage
+%Memory Abstraction Modules
+\subsection{Memory Abstraction Modules}
+The EEPROM Abstraction Layer, as specified in  [AUTOSAR$\_$SRS$\_$MemHw$\_$AbstractionLayer.pdf],  extends the EEPROM(EA) driver  so that it provides upper layers with a virtual segmentation on a linear address space and a virtually limitless number of erase and write cycles. It also provides the same functionality as an \mbox{EEPROM} driver.\newline
+The flash EEPROM emulator(FEE) emulates the behavior of the EEPROM abstraction layer on flash memory technology, having the same functional scope and API as the EEPROM abstraction layer.\newline
+\subsubsection{Acronyms and abbreviations}
+Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
+
+\subsubsection{Requirements traceability}
+
+
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+BSW14001 &Configuration of address alignment  & EA004, EA039 &  yes/no\\  \hline
+BSW14002& Configuration of number of required write cycles & EA079, EA080, EA040 &  yes/no\\  \hline 
+BSW14003& Configuration of maximum blocking time & EA039 &  yes/no\\  \hline
+BSW14004 &Configuration of “immediate” data blocks & EA040 &  yes/no\\  \hline
+BSW14026 &Don’t use certain block numbers & EA006 &  yes/no\\  \hline
+BSW14027& Publish overhead for internal management data per block & EA043 &  yes/no\\  \hline
+BSW14005& Virtual linear address space and segmentation & EA003 &  yes/no\\  \hline
+BSW14006& Alignment of block erase / write addresses & EA004, EA024EA027 &  yes/no\\  \hline
+BSW14007& Alignment of block read addresses & EA021 &  yes/no\\  \hline
+BSW14008 &Checking block read addresses & EA038 &  yes/no\\  \hline
+BSW14009 &Conversion of logical to physical addresses & EA007 &  yes/no\\  \hline
+BSW14010& Block-wise write service & Chapter 8.3.4 &  yes/no\\  \hline
+BSW14029& Block-wise read service & Chapter 8.3.3 &  yes/no\\  \hline
+BSW14031& Service to cancel an ongoing asynchronous operation & Chapter 8.3.5 &  yes/no\\  \hline
+BSW14028& Service to invalidate a memory block & Chapter 8.3.8 &  yes/no\\  \hline
+BSW14012& Spreading of write access & EA079, EA080 &  yes/no\\  \hline 
+BSW14013& Writing of “immediate” data must not be delayed & EA009 &  yes/no\\  \hline
+BSW14032& Block-wise erase service for immediate data & EA063, EA064, EA065 &  yes/no\\  \hline
+BSW14014 &Detection of data inconsistencies & EA104,EA105, EA046, EA047 &  yes/no\\  \hline
+BSW14015& Reporting of data inconsistencies & EA104,EA105, &  yes/no\\  \hline
+BSW14016& Don’t return inconsistent data to the caller & EA104,EA105 &  yes/no\\  \hline
+BSW14017& Scope of EEPROM Abstraction Layer Chapter & EA0011 &  yes/no\\  \hline
+BSW14026 &Don’t use certain block numbers & EA006 &  yes/no\\  \hline
+BSW14027 &Publish overhead for internal management data per block & EA043 &  yes/no\\  \hline
+BSW14005 &Virtual linear address space and segmentation & EA003 &  yes/no\\  \hline
+BSW14006 &Alignment of block erase / write addresses & EA004, EA024EA027 &  yes/no\\  \hline
+BSW14007 &Alignment of block read addresses & EA021 &  yes/no\\  \hline
+BSW14008 &Checking block read addresses & EA038 &  yes/no\\  \hline 
+BSW14009 &Conversion of logical to physical addresses & EA007 &  yes/no\\  \hline
+BSW14010 &Block-wise write service & Chapter 8.3.4 &  yes/no\\  \hline
+BSW14029 &Block-wise read service & Chapter 8.3.3 &  yes/no\\  \hline
+BSW14031 &Service to cancel an ongoing asynchronous operation & Chapter 8.3.5 &  yes/no\\  \hline
+BSW14028 &Service to invalidate a memory block & Chapter 8.3.8 &  yes/no\\  \hline
+BSW14012& Spreading of write access & EA079, EA080 &  yes/no\\  \hline
+BSW14013 &Writing of “immediate” data must not be delayed & EA009 &  yes/no\\  \hline
+BSW14032 &Block-wise erase service for immediate data & EA063, EA064, EA065 &  yes/no\\  \hline
+ 
+BSW14014 &Detection of data inconsistencies & EA104,EA105, EA046, EA047 &  yes/no\\  \hline
+ 
+BSW14015& Reporting of data inconsistencies & EA104,EA105 &  yes/no\\  \hline
+BSW14016& Don’t return inconsistent data to the caller & EA104,EA105 &  yes/no\\  \hline
+\end{longtable}
+
+
+
+\subsubsection{Functional requirements}
+\paragraph{Configuration}$\;$\\
+\\
+{\bf [\FR14001]} - The configuration of the start and end addresses of logical block is done by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14002]} - The required number of write cycles for each logical block are going to be determine by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14003]} - The maximal amount of time that the module is being blocked by internal management operations is to be configured by the EA and FEE modules. This operation takes longer as expected, then this is going to be split up in several parts.\newline
+\newline
+{\bf [\FR14004]} - The configuration done by the FEE and EA modules of logical blocks is only limited by the memory available on the respective device.\newline
+\newline
+{\bf [\FR14026]} - The two blocks numbers 0x0000 and 0xFFFF are not to be used by the memory abstraction module.\newline
+\newline
+{\bf [\FR14027]} - The internal management overhead of the FEE and EA modules is going to be publish per logical block.\newline
+\newline
+{\bf [\FR14033]} - The internal management overhead is going to be publish by the FEE and EA modules per page or zero if there is no overhead for managing pages.
+\paragraph{Normal Operation}$\;$\\
+{\bf [\FR14005]} - There are going to be upper layers with a virtual 32bit address space provided by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14006]} - Every write block or erase block request starts at address offset zero.\newline
+\newline
+{\bf [\FR14007]} - The read operation can start at any given memory address.\newline
+\newline
+{\bf [\FR14008]} - There is not check done by the FEE or EA for the address offset for a read operation.\newline
+\newline
+{\bf [\FR14009]} - An unambiguous conversion between the logical linear addresses and the addresses used to access the underlying flash memory is provided by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14010]} - The write operation provided by the FEE and EA module operates only on complete configured logical blocks.\newline
+\newline
+{\bf [\FR14012]} - The FEE or EA module provides sufficient mechanisms to spread the write requests over a bigger memory area if the configured number of cycle for a logical block exceeds the number provided by the underlying physical device.\newline
+\newline
+{\bf [\FR14013]} - Writing of immediate data must not be delayed by internal management operations nor by erasing the memory area to be written to. If there are operation blocking the writing, then these are going to be interrupted.\newline
+\newline
+{\bf [\FR14028]} - The invalidation of a certain logical block is provided by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14029]} - A part or all of a logical block can be read.\newline
+\newline
+{\bf [\FR14031]} - Every asynchronous operation can be cancelled by the canceling service provided by the FEE and EA modules.\newline
+\newline
+{\bf [\FR14032]} - The erase operation from the FEE and EA modules is only available when that service operates on complete logical blocks containing immediate data.
+\paragraph{Fault Operation}$\;$\\
+\\
+{\bf [\FR14014]} - Data inconsistencies due to aborted or interrupted write operation is to be detected by the FEE and EA modules.\newline
+{\bf [\FR14015]} - If there are data inconsistencies, those are going to be marked and reported just once to the \mbox{DEM}. \newline
+\newline
+{\bf [\FR14016]} - After an interrupted or cancelled write operation the data of that block is inconsistent. This inconsistency is detected on the next read access, thus it does not return any data.
+\subsubsection{Non-Functional Requirements}
+{\bf [\FR14017]} - The functional scope of an EEPROM driver is extended by the EEPROM abstraction layer.\newline
+\newline
+{\bf [\FR14018]} - The functional scope of an internal flash driver is extended by the flash EEPROM emulation.
+
+\newpage
 %Section Internal Flash Driver
 \subsection{Internal Flash Driver}
 This driver, as specified in  [AUTOSAR$\_$SRS$\_$Flash$\_$Driver.pdf], provides the ability to initialize, read, write and erase the internal Flash memory. The Flash driver has a built-in possibility to load the flash access code to \mbox{RAM} and execute the write or erase operations from there, if required.\newline
 The flash driver is only to be used by the Flash \mbox{EEPROM} emulation module for writing data, if the ECU is in application mode.
 \subsubsection{Acronyms and abbreviations}
 Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
+
+\subsubsection{Requirements traceability}
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+BSW14001 &Configuration of address alignment & FEE077, FEE078, FEE039 &   yes/no\\  \hline
+BSW14002 &Configuration of number of required write cycles & FEE008, FEE040 &  yes/no\\  \hline 
+BSW14003 &Configuration of maximum blocking time & FEE039 &  yes/no\\  \hline 
+BSW14004 &Configuration of “immediate” data blocks & FEE040 &  yes/no\\  \hline 
+BSW14026 &Don’t use certain block numbers & FEE006 &  yes/no\\  \hline
+BSW14027 &Publish overhead for internal management data per block &FEE043 &  yes/no\\  \hline
+BSW14005 &Virtual linear address space and segmentation & FEE003 &  yes/no\\  \hline
+BSW14006& Alignment of block erase / write addresses & FEE077, FEE078, FEE024 &  yes/no\\  \hline
+BSW14007& Alignment of block read addresses & FEE021 &  yes/no\\  \hline
+BSW14008 &Checking block read addresses & FEE038 &  yes/no\\  \hline
+BSW14009 &Conversion of logical to physical addresses & FEE007 &  yes/no\\  \hline 
+BSW14010 &Block-wise write service & Chapter 8.3.4 &  yes/no\\  \hline
+BSW14029 &Block-wise read service & Chapter 8.3.3 &  yes/no\\  \hline 
+BSW14031 &Service to cancel an ongoing asynchronous operation & Chapter 8.3.5 &  yes/no\\  \hline
+BSW14028 &Service to invalidate a memory block & Chapter 8.3.8 &  yes/no\\  \hline
+BSW14012 &Spreading of write access & FEE008 &  yes/no\\  \hline
+BSW14013 &Writing of “immediate” data must not be delayed & FEE009 &  yes/no\\  \hline
+BSW14032 &Block-wise erase service for immediate data & FEE066, FEE067, FEE068 &  yes/no\\  \hline
+BSW14014 &Detection of data inconsistencies & FEE023, FEE049, FEE050 &  yes/no\\  \hline
+BSW14015 &Reporting of data inconsistencies & FEE023 &  yes/no\\  \hline
+BSW14016 &Don’t return inconsistent data to the caller & FEE023 &  yes/no\\  \hline
+BSW14018 &Scope of Flash EEPROM Emulation & FEE001 &  yes/no\\  \hline
+\end{longtable}
 \subsubsection{Functional requirements}
-\subsubsection{Configuration}
+\paragraph{Configuration}$\;$\\
+\\
 {\bf [\FR12132]} - The \mbox{Flash} driver is to be statically configurable.\newline
 \newline
 {\bf [\FR12133]} - The \mbox{Flash} shall publish diverse properties like: size in bytes, base address, physical memory segmentation and etc.
-
-\subsubsection{Normal Operation}
+\paragraph{Normal Operation}$\;$\\
+\\
 {\bf [\FR12134]} - With its asynchronous read function can the flash drive a certain data block read, starting at the requested flash address from the internal flash memory with the passed length.\newline
 \newline
 {\bf [\FR12135]} - With its asynchronous write function can the flash drive a certain data block write, starting at the requested flash address from the internal flash memory with the passed length. If the requested flash address is unaligned to the physical memory segment, this request shall be rejected with an error code.\newline
@@ -171,19 +402,53 @@ Such acronyms and abbreviations, that have a local scope do not appear in this s
 {\bf [\FR12083]} - The \mbox{HIS} specification is used as basis for specifying the flash driver.\newline
 \newline
 {\bf [\FR12145]} - If a write operation is executed, then the flash driver processes in one step only as much data as the flash hardware can handle. If a read operation is executed, then the flash driver processes in one step as much as a user has defined.
-
 %External Flash Driver
 \newpage
 \subsection{External Flash Driver}
 The external flash drive, as specified in  [AUTOSAR$\_$SRS$\_$Flash$\_$Driver.pdf],  has the same functional scope as an internal flash drive, providing service for initialization, reading, writing and erasing the internal flash memory.
 \subsubsection{Acronyms and abbreviations}
 Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
+
+\subsubsection{Requirements traceability}
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+[BSW12132] &Flash driver static configuration & FLS048, FLS171 &   yes/no\\  \hline
+[BSW12133] &Publication of flash properties & FLS177, FLS178 &   yes/no\\  \hline
+[BSW12134] &Flash read function & FLS236, FLS237, FLS238, FLS239, FLS097, FLS098 &   yes/no\\  \hline 
+[BSW12135] &Flash write function & FLS223, FLS224, FLS225, FLS226, FLS026, FLS027 &   yes/no\\  \hline
+[BSW12136] &Flash erase function & FLS218, FLS219, FLS220, FLS221, FLS020, FLS021 &   yes/no\\  \hline
+BSW13301 &Flash compare function & FLS241, FLS242, FLS243, FLS244, FLS150, FLS151., FLS152, FLS153, FLS186 &   yes/no\\  \hline
+[BSW12137] &Flash cancel function & FLS229, FLS230, FLS183 &   yes/no\\  \hline
+[BSW12138] &Flash driver status function & FLS034, FLS184 &   yes/no\\  \hline
+BSW13302 &Flash driver mode selection function & FLS155, FLS156, FLS187 &   yes/no\\  \hline
+[BSW12159] &Flash address check & FLS020, FLS021, FLS026, FLS027, FLS097, FLS098 &   yes/no\\  \hline
+[BSW12158] &Flash blank check & FLS055 &   yes/no\\  \hline
+[BSW12141] &Flash write verification & FLS056 &   yes/no\\  \hline
+[BSW12160] &Flash erase verification & FLS022 &   yes/no\\  \hline
+[BSW12143] &Flash driver job management & FLS016, FLS268, FLS023, FLS030, FLS032, FLS100  &   yes/no\\  \hline
+[BSW12144] &Flash driver job processing function &  FLS037, FLS038, FLS039,  See Chapter 8.5 &   yes/no\\  \hline
+[BSW13303]&Job processing – normal mode & FLS040 &   yes/no\\  \hline
+[BSW13304] &Job processing – fast mode &FLS040 &   yes/no\\  \hline
+[BSW12193] &Load flash access code to RAM on job start & FLS140, FLS141 &   yes/no\\  \hline
+[BSW12194] &Execute flash access code from RAM & FLS212, FLS213 &   yes/no\\  \hline
+BSW13300 &Remove flash access code from RAM & FLS143 &   yes/no\\  \hline
+[BSW12147] &Functional scope & FLS088 &   yes/no\\  \hline
+[BSW12182] &External flash driver static configuration & FLS174 &   yes/no\\  \hline
+[BSW12107] &Check Flash type &  FLS144 &   yes/no\\  \hline
+[BSW12145] &Flash driver job processing execution time & FLS040, FLS176, FLS182 &   yes/no\\  \hline
+[BSW12184] &Limit read access blocking times & FLS040 &   yes/no\\  \hline
+[BSW12148] &Common Flash API & FLS088 &   yes/no\\  \hline
+\end{longtable}
+
 \subsubsection{Functional requirements}
-\subsubsection{General}
+\paragraph{General}$\;$\\
+\\
 {\bf [\FR12147]} - Scope of requirements for the external flash drive are the same as like for an internal flash drive.
-\subsubsection{Configuration}
+\paragraph{Configuration}$\;$\\
+\\
 {\bf [\FR12182]} - The external flash drive can besides the basic configuration parameters as well as configuring the static parameters: expected hardware ID and maximal read access blocking time.
-\subsubsection{Fault Operation}
+\paragraph{Fault Operation}$\;$\\
+\\
 {\bf [\FR12107]} - The initialization function of the external flash driver checks if there is a mismatch between configured flash typed and hardware flash ID. If case of mismatch, this will be reported to the error manager.
 \subsubsection{Non-Functional Requirements}
 {\bf [\FR12148]} - The APIs from the internal and external flash drivers are semantically indentical.\newline
@@ -192,18 +457,45 @@ Such acronyms and abbreviations, that have a local scope do not appear in this s
 \newline
 {\bf [\FR12184]} - The flash driver limits the read access blocking time to the configured time.
 \newpage
-
 %Internal EEPROM Driver
 \subsection{Internal EEPROM Driver}
 The internal EEPROM Driver, as specified in  [AUTOSAR$\_$SRS$\_$EEPROM$\_$Driver.pdf], has the functions for initialization, reading, writing and erasing to or from internal \mbox{EEPROM}.
 \subsubsection{Acronyms and abbreviations}
 Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
+
+\subsubsection{Requirements traceability}
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+[BSW14001]& Configuration of address alignment & EA004, EA039 &   yes/no\\  \hline
+[BSW14002] &Configuration of number of required write cycles & EA079, EA080, EA040 &   yes/no\\  \hline
+[BSW14003] &Configuration of maximum blocking time & EA039 &   yes/no\\  \hline
+[BSW14004] &Configuration of “immediate” data blocks & EA040 &   yes/no\\  \hline
+[BSW14026] &Don’t use certain block numbers & EA006 &   yes/no\\  \hline
+[BSW14027] &Publish overhead for internal management data per block & EA043 &   yes/no\\  \hline
+[BSW14005] &Virtual linear address space and segmentation & EA003 &   yes/no\\  \hline
+[BSW14006] &Alignment of block erase / write addresses & EA004, EA024, EA027 &   yes/no\\  \hline
+[BSW14007] &Alignment of block read addresses & EA021 &   yes/no\\  \hline
+[BSW14008] &Checking block read addresses & EA038 &   yes/no\\  \hline
+[BSW14009] &Conversion of logical to physical addresses & EA007 &   yes/no\\  \hline 
+[BSW14010] &Block-wise write service & Chapter 8.3.4 &   yes/no\\  \hline
+[BSW14029] &Block-wise read service &  Chapter 8.3.3 &   yes/no\\  \hline
+[BSW14031] &Service to cancel an ongoing asynchronous operation & Chapter 8.3.5 &   yes/no\\  \hline
+[BSW14028] &Service to invalidate a memory block & Chapter 8.3.8 &   yes/no\\  \hline 
+[BSW14012] &Spreading of write access & EA079, EA080 &   yes/no\\  \hline
+[BSW14013] &Writing of “immediate” data must not be delayed & EA009 &   yes/no\\  \hline
+[BSW14032] &Block-wise erase service for immediate data & EA063, EA064, EA065 &   yes/no\\  \hline
+[BSW14014] &Detection of data inconsistencies & EA104,EA105, EA046, EA047 &   yes/no\\  \hline
+[BSW14015] &Reporting of data inconsistencies & EA104,EA105 &   yes/no\\  \hline 
+[BSW14016] &Don’t return inconsistent data to the caller & EA104,EA105 &   yes/no\\  \hline
+\end{longtable}
 \subsubsection{Functional requirements}
-\subsubsection{Configuration}
+\paragraph{Configuration}$\;$\\
+\\
 {\bf [\FR096]} - The EEPROM driver has a statically configurable parameters like: base address, size, maximum block size maximum read block size and call cycle of cycle job processing function for read, write and erase.\newline
 \newline
 {\bf [\FR12071]} - The driver description contains the following parameters: total physical \mbox{EEPROM} size, value of erased \mbox{EEPROM} cell, the size of one \mbox{EEPROM} cell and physical memory segmentation.
-\subsubsection{Normal Operation}
+\paragraph{Normal Operation}$\;$\\
+\\
 {\bf [\FR087]} - With the asynchronous read function can the EEPROM driver read a certain data block starting from the requested address with the passed length from the internal \mbox{EPPROM}.\newline
 \newline
 {\bf [\FR088]} - With the asynchronous write function can the EEPROM driver write a certain data block starting from the requested address with the passed length from the internal \mbox{EPPROM}. In case that the addressed cell is not empty, an erase operation is executed automatically, before the write one. If there is a mismatch in the length between the erased block and the write requested block, then the driver will buffer and rewrite those data in the block additionally.\newline
@@ -239,96 +531,45 @@ Such acronyms and abbreviations, that have a local scope do not appear in this s
 The external EEPROM Driver, as specified in  [AUTOSAR$\_$SRS$\_$EEPROM$\_$Driver.pdf], has the functions for initialization, reading, writing and erasing to or from external \mbox{EEPROM}.
 \subsubsection{Acronyms and abbreviations}
 Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
+\subsubsection{Requirements traceability}
+
+\begin{longtable}{p{2cm}|p{5cm}|p{5cm}|p{2cm}}\hline
+Req & Description & Satisfied by & Verification\\  \hline
+[BSW096] & EEPROM driver static configuration & EEP039 &   yes/no\\  \hline
+[BSW12071]& Publication of EEPROM properties & EEP038 &   yes/no\\  \hline
+[BSW087] &EEPROM read function & EEP009, EEP013 &   yes/no\\  \hline
+[BSW088] &EEPROM write function & EEP014, EEP015, EEP063, EEP090 &   yes/no\\  \hline
+[BSW089] &EEPROM erase function & EEP019, EEP020, EEP070, EEP072 &   yes/no\\  \hline
+[BSW12091]& EEPROM compare function & EEP025, EEP026 &   yes/no\\  \hline
+[BSW090] &EEPROM cancel function & EEP021, EEP027, EEP028 &   yes/no\\  \hline
+[BSW091] &EEPROM status function & EEP029 &   yes/no\\  \hline
+[BSW12156]& EEPROM mode selection function & EEP042, EEP130, EEP132 &   yes/no\\  \hline
+[BSW092] &EEPROM write cycle reduction & EEP060, EEP064 &   yes/no\\  \hline
+[BSW094] &EEPROM segmentation handling & EEP063, EEP072, EEP070, EEP090 &   yes/no\\  \hline
+[BSW095] &EEPROM job management & EEP036, EEP033 &   yes/no\\  \hline
+[BSW12047]& EEPROM job processing function & EEP030 &   yes/no\\  \hline
+[BSW12157] &Job processing – normal mode & EEP051, EEP052, EEP053 &   yes/no\\  \hline
+[BSW12072] &Job processing – fast mode & EEP054, EEP055EEP055, EEP073 &   yes/no\\  \hline
+[BSW12050] &EEPROM job processing execution time & EEP057, EEP069, EEP051, EEP054 &   yes/no\\  \hline
+[BSW12051] &Functional scope & Chapter 1, EEP088 &   yes/no\\  \hline
+[BSW12164] &SPI channel configuration & EEP039 &   yes/no\\  \hline
+[BSW12124]& SPI access modes & EEP052, EEP053, EEP055, EEP073, EEP039 &   yes/no\\  \hline
+\end{longtable}
+
+
 \subsubsection{Functional requirements}
-\subsubsection{General}
+\paragraph{General}$\;$\\
+\\
 {\bf [\FR12051]} - Scope of requirements for the external EEPROM drive are the same as like for an internal EEPROM drive.
-\subsubsection{Configuration}
+\paragraph{Configuration}$\;$\\
+\\
 {\bf [\FR12164]} - The SPI EEPROM driver allows the static configuration of the required SPI parameters specified by the \mbox{SPI} handler.
-\subsubsection{Normal Operation}
+\paragraph{Normal Operation}$\;$\\
+\\
 {\bf [\FR12124]} - Depending on the EEPROM mode, the external SPI EEPROM device shall access as: in normal mode with single byte or word mode, in fast mode with burst mode.
 \subsubsection{Non-Functional Requirements}
 {\bf [\FR12052]} - The APIs from the internal and external EEPROM Drives are semantically indentical.\newline
 \newline
 {\bf [\FR12053]} - To insure the reuse of external EEPROM drive across multiple microcontrollers the source code is independent from the underlying microcontroller.
-
-\newpage
-%Memory Abstraction Modules
-\subsection{Memory Abstraction Modules}
-The EEPROM Abstraction Layer, as specified in  [AUTOSAR$\_$SRS$\_$MemHw$\_$AbstractionLayer.pdf],  extends the EEPROM(EA) driver  so that it provides upper layers with a virtual segmentation on a linear address space and a virtually limitless number of erase and write cycles. It also provides the same functionality as an \mbox{EEPROM} driver.\newline
-The flash EEPROM emulator(FEE) emulates the behavior of the EEPROM abstraction layer on flash memory technology, having the same functional scope and API as the EEPROM abstraction layer.\newline
-\subsubsection{Acronyms and abbreviations}
-Such acronyms and abbreviations, that have a local scope do not appear in this section of the document, but in the local glossary.
-\subsubsection{Functional requirements}
-\subsubsection{Configuration}
-{\bf [\FR14001]} - The configuration of the start and end addresses of logical block is done by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14002]} - The required number of write cycles for each logical block are going to be determine by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14003]} - The maximal amount of time that the module is being blocked by internal management operations is to be configured by the EA and FEE modules. This operation takes longer as expected, then this is going to be split up in several parts.\newline
-\newline
-{\bf [\FR14004]} - The configuration done by the FEE and EA modules of logical blocks is only limited by the memory available on the respective device.\newline
-\newline
-{\bf [\FR14026]} - The two blocks numbers 0x0000 and 0xFFFF are not to be used by the memory abstraction module.\newline
-\newline
-{\bf [\FR14027]} - The internal management overhead of the FEE and EA modules is going to be publish per logical block.\newline
-\newline
-{\bf [\FR14033]} - The internal management overhead is going to be publish by the FEE and EA modules per page or zero if there is no overhead for managing pages.
-
-\subsubsection{Normal Operation}
-{\bf [\FR14005]} - There are going to be upper layers with a virtual 32bit address space provided by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14006]} - Every write block or erase block request starts at address offset zero.\newline
-\newline
-{\bf [\FR14007]} - The read operation can start at any given memory address.\newline
-\newline
-{\bf [\FR14008]} - There is not check done by the FEE or EA for the address offset for a read operation.\newline
-\newline
-{\bf [\FR14009]} - An unambiguous conversion between the logical linear addresses and the addresses used to access the underlying flash memory is provided by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14010]} - The write operation provided by the FEE and EA module operates only on complete configured logical blocks.\newline
-\newline
-{\bf [\FR14012]} - The FEE or EA module provides sufficient mechanisms to spread the write requests over a bigger memory area if the configured number of cycle for a logical block exceeds the number provided by the underlying physical device.\newline
-\newline
-{\bf [\FR14013]} - Writing of immediate data must not be delayed by internal management operations nor by erasing the memory area to be written to. If there are operation blocking the writing, then these are going to be interrupted.\newline
-\newline
-{\bf [\FR14028]} - The invalidation of a certain logical block is provided by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14029]} - A part or all of a logical block can be read.\newline
-\newline
-{\bf [\FR14031]} - Every asynchronous operation can be cancelled by the canceling service provided by the FEE and EA modules.\newline
-\newline
-{\bf [\FR14032]} - The erase operation from the FEE and EA modules is only available when that service operates on complete logical blocks containing immediate data.
-\subsubsection{Fault Operation}
-{\bf [\FR14014]} - Data inconsistencies due to aborted or interrupted write operation is to be detected by the FEE and EA modules.\newline
-{\bf [\FR14015]} - If there are data inconsistencies, those are going to be marked and reported just once to the \mbox{DEM}. \newline
-\newline
-{\bf [\FR14016]} - After an interrupted or cancelled write operation the data of that block is inconsistent. This inconsistency is detected on the next read access, thus it does not return any data.
-
-\subsubsection{Non-Functional Requirements}
-{\bf [\FR14017]} - The functional scope of an EEPROM driver is extended by the EEPROM abstraction layer.\newline
-\newline
-{\bf [\FR14018]} - The functional scope of an internal flash driver is extended by the flash EEPROM emulation.
-
-\newpage
-\subsection{Memory Abstraction Interface}
-Provides upper layers with a virtual segmentation on a uniform linear address space.
-\subsubsection{Acronyms and abbreviations}
-\subsubsection{Functional requirements}
-\subsubsection{General}
-{\bf [\FR14019]} - Provides those services that using uniform access to those APIs that are required for usage within the \mbox{NVRAM} manager.\newline
-\newline
-{\bf [\FR14020]} - Using device index can the memory abstraction interface select the FEE or EA modules.
-\subsubsection{Configuration}
-{\bf [\FR14021]} - The configuration of the number of underlying memory abstraction modules is allow in the pre-comple time.
-\subsubsection{Normal Operation}
-{\bf [\FR14022]} - The memory abstraction interface preserves only the functionality of the underlying memory abstraction module.
-\subsubsection{Fault Operation}
-{\bf [\FR14023]} - The parameters that are going to be check by the memory abstraction interface are those that are used within the interface itself.
-\subsubsection{Non-Functional Requirements}
-\subsubsection{Timing Requirements}
-{\bf [\FR14024]} - By mapping of the memory abstraction interface API to the memory abstraction modules API can the timing behavior be preserved.
-\subsubsection{Resource Usage}
-{\bf [\FR14025]} - The memory abstraction interface is in such a way implemented that almost no memory and runtime overhead is caused by the implementation of this layer.
-
 
 

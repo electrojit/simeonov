@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.24)  1 NOV 2009 15:26
+This is pdfTeXk, Version 3.1415926-1.40.9 (Web2C 7.5.7) (format=pdflatex 2009.10.24)  29 NOV 2009 23:06
 entering extended mode
 \write18 enabled.
  %&-line parsing enabled.
@@ -31,12 +31,30 @@ File: size12.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2008/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count88
+\LTcapwidth=\dimen103
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count89
+\LT@rows=\count90
+\c@LT@tables=\count91
+\c@LT@chunks=\count92
+\LT@p@ftn=\toks14
+)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -51,10 +69,10 @@ Package graphics Info: Driver file: pdftex.def on input line 90.
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2008/09/08 v0.04l Graphics/color for pdfTeX
-\Gread@gobject=\count88
+\Gread@gobject=\count93
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/ltxmisc/a4wide.sty
 Package: a4wide 1994/08/30
@@ -63,15 +81,15 @@ Package: a4wide 1994/08/30
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
 (/usr/local/texlive/2008/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip43
-\f@ncyO@elh=\skip44
-\f@ncyO@erh=\skip45
-\f@ncyO@olh=\skip46
-\f@ncyO@orh=\skip47
-\f@ncyO@elf=\skip48
-\f@ncyO@erf=\skip49
-\f@ncyO@olf=\skip50
-\f@ncyO@orf=\skip51
+\fancy@headwidth=\skip47
+\f@ncyO@elh=\skip48
+\f@ncyO@erh=\skip49
+\f@ncyO@olh=\skip50
+\f@ncyO@orh=\skip51
+\f@ncyO@elf=\skip52
+\f@ncyO@erf=\skip53
+\f@ncyO@olf=\skip54
+\f@ncyO@orf=\skip55
 )
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/02/22 v6.78p Hypertext links for LaTeX
@@ -94,9 +112,9 @@ O)
 (/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/xcolor-patch.sty
 Package: xcolor-patch 2008/09/08 xcolor patch
 ))
-\@linkdim=\dimen105
-\Hy@linkcounter=\count89
-\Hy@pagecounter=\count90
+\@linkdim=\dimen106
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
 
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/02/22 v6.78p Hyperref: PDFDocEncoding definition (HO)
@@ -151,10 +169,10 @@ Package pdftexcmds Info: LuaTeX not detected on input line 139.
 Package: kvsetkeys 2007/09/29 v1.3 Key value parser with default handler suppor
 t (HO)
 )
-\Fld@menulength=\count91
-\Field@Width=\dimen106
-\Fld@charsize=\dimen107
-\Field@toks=\toks15
+\Fld@menulength=\count96
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+\Field@toks=\toks16
 Package hyperref Info: Hyper figures OFF on input line 4299.
 Package hyperref Info: Link nesting OFF on input line 4304.
 Package hyperref Info: Hyper index ON on input line 4307.
@@ -166,19 +184,20 @@ Package hyperref Info: PDF/A mode OFF on input line 4329.
 (/usr/local/texlive/2008/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count92
-\c@Item=\count93
-\c@Hfootnote=\count94
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
 )
 *hyperref using driver hpdftex*
 (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/02/22 v6.78p Hyperref driver for pdfTeX
-\Fld@listcount=\count95
+\Fld@listcount=\count100
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 22.
 
-(./Draft.aux (./Introduction.aux) (./Case_study.aux) (./Glossary.aux)
-(./References.aux))
+(./Draft.aux (./Introduction.aux) (./Autosar.aux) (./Spice.aux)
+(./ModelingLanguages.aux) (./Case_study.aux) (./Conclusion.aux) (./Glossary.aux
+) (./References.aux))
 \openout1 = `Draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -198,16 +217,16 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/local/texlive/2008/texmf-dist/tex/context/base/supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
-\scratchdimen=\dimen108
-\scratchbox=\box26
-\nofMPsegments=\count97
-\nofMParguments=\count98
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count99
-\MPscratchDim=\dimen109
-\MPnumerator=\count100
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count101
+\scratchdimen=\dimen109
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen110
+\MPnumerator=\count105
+\everyMPtoPDFconversion=\toks18
 )
 Package hyperref Info: Link coloring OFF on input line 23.
  (/usr/local/texlive/2008/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -216,7 +235,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/local/texlive/2008/texmf-dist/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count101
+\c@section@level=\count106
 )
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
@@ -225,7 +244,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 \@outlinefile=\write3
 \openout3 = `Draft.out'.
 
-\AtBeginShipoutBox=\box27
+\AtBeginShipoutBox=\box31
  (./Draft.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
@@ -245,41 +264,76 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (./Introduction.tex
 .
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-Missing character: There is no Þ in font cmss10!
-<Images/Figure1_1.png, id=468, 598.235pt x 443.6575pt>
-File: Images/Figure1_1.png Graphic file (type png)
-
-<use Images/Figure1_1.png> [4
-
-
- <./Images/Figure1_1.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 13.
-
-LaTeX Font Info:    No file OMScmss.fd. on input line 13.
-
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 9.
+LaTeX Font Info:    No file OMScmss.fd. on input line 9.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 13.
+(Font)              for symbol `textbullet' on input line 9.
 
-) [5]
+) [4
+
+
+] [5]
+\openout2 = `Autosar.aux'.
+
+ (./Autosar.tex
+.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<Images/autosar_arch.jpg, id=477, 421.575pt x 550.055pt>
+File: Images/autosar_arch.jpg Graphic file (type jpg)
+
+<use Images/autosar_arch.jpg> [6
+
+
+
+ <./Images/autosar_arch.jpg>] [7]
+<Images/Figure2_1.png, id=492, 580.1675pt x 552.0625pt>
+File: Images/Figure2_1.png Graphic file (type png)
+
+<use Images/Figure2_1.png> [8 <./Images/Figure2_1.png (PNG copy)>]) [9]
+\openout2 = `Spice.aux'.
+
+
+(./Spice.tex
+.
+<Images/Automotive_Spice.png, id=502, 784.9325pt x 484.81125pt>
+File: Images/Automotive_Spice.png Graphic file (type png)
+
+<use Images/Automotive_Spice.png>) [10
+
+
+
+ <./Images/Automotive_Spice.png (PNG copy)>] [11]
+\openout2 = `ModelingLanguages.aux'.
+
+ (./ModelingLanguages.tex
+.
+Missing character: There is no Õ in font cmss12!
+Missing character: There is no Õ in font cmss12!
+) [12
+
+
+
+]
 \openout2 = `Case_study.aux'.
 
  (./Case_study.tex
 .
-<Images/Figure2_1.png, id=482, 580.1675pt x 552.0625pt>
 File: Images/Figure2_1.png Graphic file (type png)
-
-<use Images/Figure2_1.png> [6
-
+<use Images/Figure2_1.png> [13
 
 
- <./Images/Figure2_1.png (PNG copy)>]
-(./Case_Study/Requirements.tex
+
+] (./Case_Study/Requirements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--26
 
  []
@@ -315,545 +369,1468 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--26
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 32--32
+[]|\OT1/cmss/m/n/12 [BSW08534]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\OT1/cmss/m/n/12 NVM370, NVM371,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 33--33
+[]|\OT1/cmss/m/n/12 [BSW08528]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 34--34
+[]|\OT1/cmss/m/n/12 [BSW08529]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\OT1/cmss/m/n/12 redundant NVM001,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 35--35
+[]|\OT1/cmss/m/n/12 [BSW08531]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 36--36
+[]|\OT1/cmss/m/n/12 [BSW08543]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 37--37
+[]|\OT1/cmss/m/n/12 [BSW08009]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 39--39
+[]|\OT1/cmss/m/n/12 [BSW08549]| 
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 39--39
+[]|\OT1/cmss/m/n/12 Automatic ini-tial-iza-tion of
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 41--41
+[]|\OT1/cmss/m/n/12 [BSW08000]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 42--42
+[]|\OT1/cmss/m/n/12 [BSW08001]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 43--43
+[]|\OT1/cmss/m/n/12 [BSW08538]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmss/m/n/12 Static con-fig-u-ra-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmss/m/n/12 NVM117, NVM245,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 44--44
+[]|\OT1/cmss/m/n/12 [BSW08546]| 
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 44--44
+[]|\OT1/cmss/m/n/12 Protection of RAM data
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 45--45
+[]|\OT1/cmss/m/n/12 [BSW08533]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\OT1/cmss/m/n/12 Load data blocks from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]|\OT1/cmss/m/n/12 Only ac-cess non-volatile
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 48--48
+[]|\OT1/cmss/m/n/12 [BSW08014]| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 49
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 52--52
+[]|\OT1/cmss/m/n/12 [BSW08541]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\OT1/cmss/m/n/12 NVM380, NVM381,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 54--54
+[]|\OT1/cmss/m/n/12 [BSW08548]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 55--55
+[]|\OT1/cmss/m/n/12 [BSW08547]| 
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 55--55
+[]|\OT1/cmss/m/n/12 Distinction be-tween in-val-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\OT1/cmss/m/n/12 NVM405, NVM406,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 56--56
+[]|\OT1/cmss/m/n/12 [BSW08550]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/cmss/m/n/12 Marking blocks mod-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\OT1/cmss/m/n/12 NVM405, NVM406,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/cmss/m/n/12 NVM432, NVM433,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/cmss/m/n/12 NVM434, NVM344,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 57--57
+[]|\OT1/cmss/m/n/12 [BSW08545]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmss/m/n/12 Validation of per-ma-nent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmss/m/n/12 NVM405, NVM406,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmss/m/n/12 NVM121, NVM344,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 58--58
+[]|\OT1/cmss/m/n/12 [BSW08011]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\OT1/cmss/m/n/12 NVM421, NVM422,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 59--59
+[]|\OT1/cmss/m/n/12 [BSW08544]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmss/m/n/12 Block-wise eras-ing of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmss/m/n/12 NVM415, NVM416,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 60--60
+[]|\OT1/cmss/m/n/12 [BSW08007]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 61--61
+[]|\OT1/cmss/m/n/12 [BSW08542]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[]|\OT1/cmss/m/n/12 Write pro-tect/unprotect
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 64--64
+[]|\OT1/cmss/m/n/12 Consistency/integrity check
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/cmss/m/n/12 NVM040, NVM036,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 66--66
+[]|\OT1/cmss/m/n/12 [BSW08535]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 67--67
+[]|\OT1/cmss/m/n/12 [BSW08540]| 
+ []
+
+[14]
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 70--70
+[]|\OT1/cmss/m/n/12 [BSW08010]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\OT1/cmss/m/n/12 NVM012, NVM020,
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 72--72
+[]|\OT1/cmss/m/n/12 Provide in-for-ma-tion about
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 73--73
+[]|\OT1/cmss/m/n/12 [BSW08015]| 
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--57
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
 
  []
 
-[7]
-Overfull \hbox (7.28418pt too wide) in paragraph at lines 58--60
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--108
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+
+ []
+
+
+Overfull \hbox (7.28418pt too wide) in paragraph at lines 108--112
 \OT1/cmss/bx/n/12 [BSW08533] \OT1/cmss/m/n/12 - The [] man-ager pro-vides a ser
 -vice to check and load those [],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--153
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--168
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\OT1/cmss/m/n/12 MemIf018, MemIf019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\OT1/cmss/m/n/12 MemIf020, MemIf022,
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 189
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--207
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 208--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
+
+ []
+
+[22]
+Overfull \hbox (11.46529pt too wide) in paragraph at lines 217--219
+\OT1/cmss/m/n/12 The EEP-ROM Ab-strac-tion Layer, as spec-i-fied in [AUTOSAR$[]
+$SRS$[]$MemHw$[]$AbstractionLayer.pdf],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\OT1/cmss/m/n/12 Configuration of ad-dress
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 229--229
+[]|\OT1/cmss/m/n/12 Configuration of max-i-mum
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+Missing character: There is no Õ in font cmss12!
+
+Underfull \hbox (badness 6641) in paragraph at lines 236--236
+[]|\OT1/cmss/m/n/12 Checking block read ad-
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+
+Underfull \hbox (badness 1009) in paragraph at lines 243--243
+[]|\OT1/cmss/m/n/12 Writing of im-me-di-ate data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+[]|\OT1/cmss/m/n/12 EA104,EA105, EA046,
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 245
+ []
+
+Missing character: There is no Õ in font cmss12!
+Missing character: There is no Õ in font cmss12!
+
+Underfull \hbox (badness 6641) in paragraph at lines 254--254
+[]|\OT1/cmss/m/n/12 Checking block read ad-
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+
+Underfull \hbox (badness 1009) in paragraph at lines 261--261
+[]|\OT1/cmss/m/n/12 Writing of im-me-di-ate data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\OT1/cmss/m/n/12 EA104,EA105, EA046,
+ []
+
+Missing character: There is no Õ in font cmss12!
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--312
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--322
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+ [26]
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[]|\OT1/cmss/m/n/12 Configuration of ad-dress
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 336--336
+[]|\OT1/cmss/m/n/12 Configuration of max-i-mum
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+Missing character: There is no Õ in font cmss12!
+
+Underfull \hbox (badness 6641) in paragraph at lines 343--343
+[]|\OT1/cmss/m/n/12 Checking block read ad-
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+
+Underfull \hbox (badness 1009) in paragraph at lines 350--350
+[]|\OT1/cmss/m/n/12 Writing of im-me-di-ate data
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 352
+ []
+
+Missing character: There is no Õ in font cmss12!
+
+Underfull \hbox (badness 3049) in paragraph at lines 355--355
+[]|\OT1/cmss/m/n/12 Scope of Flash EEP-ROM
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--100
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 102--105
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--105
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 363--401
+
+ []
+
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
+
+ []
+
+[31]
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 415--415
+[]|\OT1/cmss/m/n/12 [BSW12132]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 416--416
+[]|\OT1/cmss/m/n/12 [BSW12133]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 417--417
+[]|\OT1/cmss/m/n/12 [BSW12134]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 417--417
+[]|\OT1/cmss/m/n/12 FLS236, FLS237, FLS238,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 418--418
+[]|\OT1/cmss/m/n/12 [BSW12135]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 418--418
+[]|\OT1/cmss/m/n/12 FLS223, FLS224, FLS225,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 419--419
+[]|\OT1/cmss/m/n/12 [BSW12136]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 419--419
+[]|\OT1/cmss/m/n/12 FLS218, FLS219, FLS220,
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 420--420
+[]|\OT1/cmss/m/n/12 FLS241, FLS242, FLS243,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 421--421
+[]|\OT1/cmss/m/n/12 [BSW12137]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 422--422
+[]|\OT1/cmss/m/n/12 [BSW12138]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 424--424
+[]|\OT1/cmss/m/n/12 [BSW12159]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 424--424
+[]|\OT1/cmss/m/n/12 FLS020, FLS021, FLS026,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 425--425
+[]|\OT1/cmss/m/n/12 [BSW12158]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 426--426
+[]|\OT1/cmss/m/n/12 [BSW12141]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 427--427
+[]|\OT1/cmss/m/n/12 [BSW12160]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 428--428
+[]|\OT1/cmss/m/n/12 [BSW12143]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 428--428
+[]|\OT1/cmss/m/n/12 FLS016, FLS268, FLS023,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 429--429
+[]|\OT1/cmss/m/n/12 [BSW12144]| 
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 429--429
+[]|\OT1/cmss/m/n/12 FLS037, FLS038, FLS039,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 430--430
+[]|\OT1/cmss/m/n/12 [BSW13303]| 
+ []
+
+Missing character: There is no Ð in font cmss12!
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 431--431
+[]|\OT1/cmss/m/n/12 [BSW13304]| 
+ []
+
+Missing character: There is no Ð in font cmss12!
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 432--432
+[]|\OT1/cmss/m/n/12 [BSW12193]| 
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 432--432
+[]|\OT1/cmss/m/n/12 Load flash ac-cess code to
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 433--433
+[]|\OT1/cmss/m/n/12 [BSW12194]| 
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 433--433
+[]|\OT1/cmss/m/n/12 Execute flash ac-cess code
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 433
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 434--434
+[]|\OT1/cmss/m/n/12 Remove flash ac-cess code
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 435--435
+[]|\OT1/cmss/m/n/12 [BSW12147]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 436--436
+[]|\OT1/cmss/m/n/12 [BSW12182]| 
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 436--436
+[]|\OT1/cmss/m/n/12 External flash driver static
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 437--437
+[]|\OT1/cmss/m/n/12 [BSW12107]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 438--438
+[]|\OT1/cmss/m/n/12 [BSW12145]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 439--439
+[]|\OT1/cmss/m/n/12 [BSW12184]| 
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 439--439
+[]|\OT1/cmss/m/n/12 Limit read ac-cess block-ing
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 440--440
+[]|\OT1/cmss/m/n/12 [BSW12148]| 
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 447--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
+Underfull \hbox (badness 10000) in paragraph at lines 450--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--113
-
- []
-
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
+Underfull \hbox (badness 10000) in paragraph at lines 454--459
+
+ []
+
+[33] [34]
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 469--469
+[]|\OT1/cmss/m/n/12 [BSW14001]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 469--469
+[]|\OT1/cmss/m/n/12 Configuration of ad-dress
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 470--470
+[]|\OT1/cmss/m/n/12 [BSW14002]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 471--471
+[]|\OT1/cmss/m/n/12 [BSW14003]| 
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 471--471
+[]|\OT1/cmss/m/n/12 Configuration of max-i-mum
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 472--472
+[]|\OT1/cmss/m/n/12 [BSW14004]| 
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 473--473
+[]|\OT1/cmss/m/n/12 [BSW14026]| 
+ []
+
+Missing character: There is no Õ in font cmss12!
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 474--474
+[]|\OT1/cmss/m/n/12 [BSW14027]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 475--475
+[]|\OT1/cmss/m/n/12 [BSW14005]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 476--476
+[]|\OT1/cmss/m/n/12 [BSW14006]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 477--477
+[]|\OT1/cmss/m/n/12 [BSW14007]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 478--478
+[]|\OT1/cmss/m/n/12 [BSW14008]| 
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 478--478
+[]|\OT1/cmss/m/n/12 Checking block read ad-
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 479--479
+[]|\OT1/cmss/m/n/12 [BSW14009]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 480--480
+[]|\OT1/cmss/m/n/12 [BSW14010]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 481--481
+[]|\OT1/cmss/m/n/12 [BSW14029]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 482--482
+[]|\OT1/cmss/m/n/12 [BSW14031]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 483--483
+[]|\OT1/cmss/m/n/12 [BSW14028]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 484--484
+[]|\OT1/cmss/m/n/12 [BSW14012]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 485--485
+[]|\OT1/cmss/m/n/12 [BSW14013]| 
+ []
+
+Missing character: There is no Ò in font cmss12!
+Missing character: There is no Ó in font cmss12!
+
+Underfull \hbox (badness 1009) in paragraph at lines 485--485
+[]|\OT1/cmss/m/n/12 Writing of im-me-di-ate data
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 486--486
+[]|\OT1/cmss/m/n/12 [BSW14032]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 487--487
+[]|\OT1/cmss/m/n/12 [BSW14014]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
+[]|\OT1/cmss/m/n/12 EA104,EA105, EA046,
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 487
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 488--488
+[]|\OT1/cmss/m/n/12 [BSW14015]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 489--489
+[]|\OT1/cmss/m/n/12 [BSW14016]| 
+ []
+
+Missing character: There is no Õ in font cmss12!
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 492--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
+Underfull \hbox (badness 10000) in paragraph at lines 492--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--170
-
- []
-
-[12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 171--174
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
-
- []
-
-
-Overfull \hbox (7.63124pt too wide) in paragraph at lines 203--206
+Overfull \hbox (7.63124pt too wide) in paragraph at lines 492--497
 \OT1/cmss/bx/n/12 [BSW12071] \OT1/cmss/m/n/12 - The driver de-scrip-tion con-ta
 ins the fol-low-ing pa-ram-e-ters: to-tal phys-i-cal []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--232
-
- []
-
-[16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
-
- []
-
-[18]
-Overfull \hbox (11.46529pt too wide) in paragraph at lines 257--259
-\OT1/cmss/m/n/12 The EEP-ROM Ab-strac-tion Layer, as spec-i-fied in [AUTOSAR$[]
-$SRS$[]$MemHw$[]$AbstractionLayer.pdf],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
+Underfull \hbox (badness 10000) in paragraph at lines 497--524
+
+ []
+
+[36] [37]
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 539--539
+[]|\OT1/cmss/m/n/12 [BSW12071]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
+[]|\OT1/cmss/m/n/12 Publication of EEP-ROM
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 543--543
+[]|\OT1/cmss/m/n/12 [BSW12091]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 546--546
+[]|\OT1/cmss/m/n/12 [BSW12156]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
+[]|\OT1/cmss/m/n/12 EEPROM mode se-lec-tion
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 550--550
+[]|\OT1/cmss/m/n/12 [BSW12047]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[]|\OT1/cmss/m/n/12 EEPROM job pro-cess-ing
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 551--551
+[]|\OT1/cmss/m/n/12 [BSW12157]| 
+ []
+
+Missing character: There is no Ð in font cmss12!
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 552--552
+[]|\OT1/cmss/m/n/12 [BSW12072]| 
+ []
+
+Missing character: There is no Ð in font cmss12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+[]|\OT1/cmss/m/n/12 EEP054, EEP055EEP055,
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 553--553
+[]|\OT1/cmss/m/n/12 [BSW12050]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 554--554
+[]|\OT1/cmss/m/n/12 [BSW12051]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 555--555
+[]|\OT1/cmss/m/n/12 [BSW12164]| 
+ []
+
+
+Overfull \hbox (4.61469pt too wide) in paragraph at lines 556--556
+[]|\OT1/cmss/m/n/12 [BSW12124]| 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 556
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 561--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
+Underfull \hbox (badness 10000) in paragraph at lines 564--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
+Underfull \hbox (badness 10000) in paragraph at lines 567--570
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
+Underfull \hbox (badness 10000) in paragraph at lines 571--574
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--301
-
- []
-
-
-Underfull \vbox (badness 1303) has occurred while \output is active []
-
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 302--306
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 308--311
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
-
- []
-
-) [22] (./Case_Study/UML/SoftwareArchitecture.tex
+) [39] (./Case_Study/UML/SoftwareArchitecture.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<Images/Memory_Stack_Overview_UML.png, id=555, 945.5325pt x 1017.8025pt>
-File: Images/Memory_Stack_Overview_UML.png Graphic file (type png)
+<Images/Memory_Stack_POverview.png, id=666, 427.5975pt x 921.4425pt>
+File: Images/Memory_Stack_POverview.png Graphic file (type png)
 
-<use Images/Memory_Stack_Overview_UML.png> [23 <./Images/Memory_Stack_Overview_
-UML.png (PNG copy)>]) [24] (./Case_Study/SysML/SoftwareArchitecture.tex)
-[25] (./Case_Study/UML_RT/SoftwareArchitecture.tex
+<use Images/Memory_Stack_POverview.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+<Images/MemoryService_Overview_UML.png, id=671, 491.8375pt x 291.0875pt>
+File: Images/MemoryService_Overview_UML.png Graphic file (type png)
+
+<use Images/MemoryService_Overview_UML.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <./Images/Memory_Stack_POverview.png (PNG copy)>]
+<Images/MemoryHardwareAbstraction_Overview_UML.png, id=676, 747.79375pt x 555.0
+7375pt>
+File: Images/MemoryHardwareAbstraction_Overview_UML.png Graphic file (type png)
+
+ <use Images/MemoryHardwareAbstraction_Overview_UML.png>
+<Images/MemoryDrivers_Overview_UML.png, id=677, 455.7025pt x 185.69376pt>
+File: Images/MemoryDrivers_Overview_UML.png Graphic file (type png)
+
+<use Images/MemoryDrivers_Overview_UML.png>
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+ [42 <./Images/MemoryService_Overview_UML.png (PNG copy)> <./Images/MemoryHardw
+areAbstraction_Overview_UML.png (PNG copy)>]
+<Images/NvM_Init_DynamicBehavior_Overview.png, id=682, 459.7175pt x 223.83624pt
+>
+File: Images/NvM_Init_DynamicBehavior_Overview.png Graphic file (type png)
+ <use Images/NvM_Init_DynamicBehavior_Overview.png>
+<Images/NvM_Read_Fls_DynamicBehavior_Overview.png, id=683, 1676.2625pt x 575.14
+874pt>
+File: Images/NvM_Read_Fls_DynamicBehavior_Overview.png Graphic file (type png)
+ <use Images/NvM_Read_Fls_DynamicBehavior_Overview.png>
+File: Images/NvM_Read_Fls_DynamicBehavior_Overview.png Graphic file (type png)
+
+<use Images/NvM_Read_Fls_DynamicBehavior_Overview.png> [43 <./Images/MemoryDriv
+ers_Overview_UML.png (PNG copy)> <./Images/NvM_Init_DynamicBehavior_Overview.pn
+g (PNG copy)> <./Images/NvM_Read_Fls_DynamicBehavior_Overview.png (PNG copy)>])
+[44] (./Case_Study/SysML/SoftwareArchitecture.tex) [45]
+(./Case_Study/UML_RT/SoftwareArchitecture.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 1.
 
@@ -865,7 +1842,20 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-)) [26]
+) [46] (./Case_Study/Tools.tex
+.
+)) [47
+
+]
+\openout2 = `Conclusion.aux'.
+
+ (./Conclusion.tex
+.
+) [48
+
+
+
+]
 \openout2 = `Glossary.aux'.
 
  (./Glossary.tex
@@ -1013,40 +2003,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--57
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [27
+ [49
 
 
 
 ])
-[28]
+[50]
 \openout2 = `References.aux'.
 
- (./References.tex) [29
+ (./References.tex) [51
 
 
 
-] (./Draft.aux (./Introduction.aux)
-(./Case_study.aux) (./Glossary.aux) (./References.aux))
+] (./Draft.aux (./Introduction.aux) (./Autosar.aux)
+(./Spice.aux) (./ModelingLanguages.aux) (./Case_study.aux) (./Conclusion.aux)
+(./Glossary.aux) (./References.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4527 strings out of 493876
- 67095 string characters out of 1150567
- 139576 words of memory out of 3000000
- 7590 multiletter control sequences out of 10000+50000
+ 4742 strings out of 493876
+ 70271 string characters out of 1150567
+ 170310 words of memory out of 3000000
+ 7705 multiletter control sequences out of 10000+50000
  10597 words of font info for 37 fonts, out of 3000000 for 5000
  714 hyphenation exceptions out of 8191
- 36i,12n,43p,625b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,12n,43p,819b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss10.pfb></usr/l
 ocal/texlive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss12.pfb></usr/local/texl
 ive/2008/texmf-dist/fonts/type1/bluesky/cm/cmss8.pfb></usr/local/texlive/2008/t
 exmf-dist/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/local/texlive/2008/texmf-di
 st/fonts/type1/bluesky/cm/cmsy10.pfb>
-Output written on Draft.pdf (29 pages, 251357 bytes).
+Output written on Draft.pdf (51 pages, 487374 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 131072)
- 740 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 131072)
+ 770 words of extra memory for PDF output out of 10000 (max. 10000000)
 
